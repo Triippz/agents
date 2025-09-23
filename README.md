@@ -1,6 +1,6 @@
 # Claude Code Subagents Collection
 
-A comprehensive collection of 83 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
+A comprehensive collection of 95 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
 
 ## Overview
 
@@ -35,6 +35,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [ui-ux-designer](ui-ux-designer.md) | sonnet | Interface design, wireframes, design systems |
 | [ui-visual-validator](ui-visual-validator.md) | sonnet | Visual regression testing and UI verification |
 | [mobile-developer](mobile-developer.md) | sonnet | React Native and Flutter application development |
+| [mobile-architect](mobile-architect.md) | opus | Mobile architecture patterns, performance optimization, cross-platform strategy |
 | [ios-developer](ios-developer.md) | sonnet | Native iOS development with Swift/SwiftUI |
 | [flutter-expert](flutter-expert.md) | sonnet | Advanced Flutter development with state management |
 
@@ -58,6 +59,9 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [python-pro](python-pro.md) | sonnet | Python development with advanced features and optimization |
 | [ruby-pro](ruby-pro.md) | sonnet | Ruby with metaprogramming, Rails patterns, gem development |
 | [php-pro](php-pro.md) | sonnet | Modern PHP with frameworks and performance optimization |
+| [dart-pro](dart-pro.md) | sonnet | Dart 3.x+ with null safety, async programming, and Flutter integration |
+| [angular-architect](angular-architect.md) | sonnet | Angular 15+ enterprise applications, standalone components, signals |
+| [nextjs-developer](nextjs-developer.md) | sonnet | Next.js 14+ full-stack development, App Router, server components |
 
 #### Enterprise & JVM
 
@@ -83,8 +87,11 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | Agent | Model | Description |
 |-------|-------|-------------|
 | [devops-troubleshooter](devops-troubleshooter.md) | sonnet | Production debugging, log analysis, deployment troubleshooting |
+| [devops-engineer](devops-engineer.md) | sonnet | DevOps transformation, automation, CI/CD, and team collaboration |
 | [deployment-engineer](deployment-engineer.md) | sonnet | CI/CD pipelines, containerization, cloud deployments |
 | [terraform-specialist](terraform-specialist.md) | opus | Infrastructure as Code with Terraform modules and state management |
+| [platform-engineer](platform-engineer.md) | opus | Internal developer platforms, self-service infrastructure, developer experience |
+| [sre-engineer](sre-engineer.md) | opus | Site reliability engineering, SLI/SLO management, incident response |
 | [dx-optimizer](dx-optimizer.md) | sonnet | Developer experience optimization and tooling improvements |
 
 #### Database Management
@@ -122,6 +129,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [tdd-orchestrator](tdd-orchestrator.md) | sonnet | Test-Driven Development methodology guidance |
 | [debugger](debugger.md) | sonnet | Error resolution and test failure analysis |
 | [error-detective](error-detective.md) | sonnet | Log analysis and error pattern recognition |
+| [accessibility-tester](accessibility-tester.md) | sonnet | WCAG compliance, inclusive design, assistive technology testing |
 
 #### Performance & Observability
 
@@ -192,6 +200,9 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [payment-integration](payment-integration.md) | sonnet | Payment processor integration (Stripe, PayPal) |
 | [legacy-modernizer](legacy-modernizer.md) | sonnet | Legacy code refactoring and modernization |
 | [context-manager](context-manager.md) | haiku | Multi-agent context management |
+| [crdt-expert](crdt-expert.md) | opus | Conflict-free Replicated Data Types, distributed systems, collaborative applications |
+| [data-structures-expert](data-structures-expert.md) | sonnet | Data structure selection, algorithm complexity, optimization patterns |
+| [websocket-engineer](websocket-engineer.md) | sonnet | Real-time communication, WebSocket APIs, bidirectional messaging |
 
 ### SEO & Content Optimization
 
@@ -217,8 +228,8 @@ Agents are assigned to specific Claude models based on task complexity and compu
 | Model | Agent Count | Use Case |
 |-------|-------------|----------|
 | Haiku | 11 | Quick, focused tasks with minimal computational overhead |
-| Sonnet | 46 | Standard development and specialized engineering tasks |
-| Opus | 22 | Complex reasoning, architecture, and critical analysis |
+| Sonnet | 57 | Standard development and specialized engineering tasks |
+| Opus | 27 | Complex reasoning, architecture, and critical analysis |
 
 ### Haiku Model Agents
 
@@ -231,19 +242,19 @@ Agents are assigned to specific Claude models based on task complexity and compu
 
 | Category | Count | Agents |
 |----------|-------|--------|
-| Programming Languages | 18 | All language-specific agents (JavaScript, Python, Java, C++, etc.) |
+| Programming Languages | 21 | All language-specific agents (JavaScript, Python, Java, C++, Dart, Angular, Next.js, etc.) |
 | Frontend & UI | 5 | `frontend-developer`, `ui-ux-designer`, `ui-visual-validator`, `mobile-developer`, `ios-developer` |
-| Infrastructure | 8 | `devops-troubleshooter`, `deployment-engineer`, `dx-optimizer`, `database-admin`, `network-engineer`, `flutter-expert`, `api-documenter`, `tutorial-engineer` |
-| Quality & Testing | 4 | `test-automator`, `tdd-orchestrator`, `debugger`, `error-detective` |
+| Infrastructure | 11 | `devops-troubleshooter`, `devops-engineer`, `deployment-engineer`, `dx-optimizer`, `database-admin`, `network-engineer`, `flutter-expert`, `api-documenter`, `tutorial-engineer`, `websocket-engineer`, `legacy-modernizer` |
+| Quality & Testing | 5 | `test-automator`, `tdd-orchestrator`, `debugger`, `error-detective`, `accessibility-tester` |
 | Business & Support | 6 | `business-analyst`, `risk-manager`, `content-marketer`, `customer-support`, `mermaid-expert`, `legacy-modernizer` |
-| Data & Content | 5 | `data-engineer`, `payment-integration`, `seo-content-auditor`, `seo-authority-builder`, `seo-content-writer` |
+| Data & Content | 6 | `data-engineer`, `data-structures-expert`, `payment-integration`, `seo-content-auditor`, `seo-authority-builder`, `seo-content-writer` |
 
 ### Opus Model Agents
 
 | Category | Count | Agents |
 |----------|-------|--------|
-| Architecture & Design | 7 | `architect-reviewer`, `backend-architect`, `cloud-architect`, `hybrid-cloud-architect`, `kubernetes-architect`, `graphql-architect`, `terraform-specialist` |
-| Critical Analysis | 6 | `code-reviewer`, `security-auditor`, `performance-engineer`, `observability-engineer`, `incident-responder`, `database-optimizer` |
+| Architecture & Design | 10 | `architect-reviewer`, `backend-architect`, `cloud-architect`, `hybrid-cloud-architect`, `kubernetes-architect`, `graphql-architect`, `terraform-specialist`, `platform-engineer`, `mobile-architect`, `crdt-expert` |
+| Critical Analysis | 7 | `code-reviewer`, `security-auditor`, `performance-engineer`, `observability-engineer`, `incident-responder`, `sre-engineer`, `database-optimizer` |
 | AI/ML Complex | 5 | `ai-engineer`, `ml-engineer`, `mlops-engineer`, `data-scientist`, `prompt-engineer` |
 | Business Critical | 4 | `docs-architect`, `hr-pro`, `legal-advisor`, `quant-analyst` |
 
@@ -425,7 +436,7 @@ payment-integration → security-auditor → Validated implementation
 | Language Category | Agents | Primary Use Cases |
 |-------------------|--------|-------------------|
 | Systems Programming | `c-pro`, `cpp-pro`, `rust-pro`, `golang-pro` | OS interfaces, embedded systems, high performance |
-| Web Development | `javascript-pro`, `typescript-pro`, `python-pro`, `ruby-pro`, `php-pro` | Full-stack web applications, APIs, scripting |
+| Web Development | `javascript-pro`, `typescript-pro`, `python-pro`, `ruby-pro`, `php-pro`, `dart-pro` | Full-stack web applications, APIs, scripting |
 | Enterprise | `java-pro`, `csharp-pro`, `scala-pro` | Large-scale applications, enterprise systems |
 | Mobile | `ios-developer`, `flutter-expert`, `mobile-developer` | Native and cross-platform mobile apps |
 | Specialized | `elixir-pro`, `unity-developer`, `minecraft-bukkit-pro` | Domain-specific development |
