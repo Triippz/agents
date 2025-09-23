@@ -4,11 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository contains a collection of 83 specialized AI subagents for Claude Code, organized as Markdown files with frontmatter metadata. Each subagent provides domain-specific expertise across software development, infrastructure, and business operations.
+This repository contains a collection of 94 specialized AI subagents for Claude Code, organized as Markdown files with frontmatter metadata. Each subagent provides domain-specific expertise across software development, infrastructure, and business operations.
 
 ## Repository Structure
 
-- **Root directory**: Contains 83 individual `.md` files, each defining a specific subagent
+- **categories/**: Contains 94 individual `.md` files organized in 10 thematic directories, each defining a specific subagent
 - **examples/**: Contains usage examples and documentation (currently `tdd-usage.md`)
 - **Subagent categories**: Architecture & System Design, Programming Languages, Infrastructure & Operations, Quality Assurance & Security, Data & AI, Documentation, Business & Operations, and Specialized Domains
 
@@ -29,8 +29,8 @@ System prompt defining the subagent's expertise and behavior
 
 ### Model Distribution
 - **Haiku (11 agents)**: Quick, focused tasks with minimal computational overhead
-- **Sonnet (46 agents)**: Standard development and specialized engineering tasks
-- **Opus (22 agents)**: Complex reasoning, architecture, and critical analysis
+- **Sonnet (57 agents)**: Standard development and specialized engineering tasks
+- **Opus (27 agents)**: Complex reasoning, architecture, and critical analysis
 
 ## Key Subagent Categories
 
@@ -110,3 +110,20 @@ payment-integration → security-auditor → Validated implementation
 ## Installation Context
 
 This repository is designed to be cloned into `~/.claude/agents/` directory where Claude Code automatically detects and loads the subagents for use.
+
+## Development Commands
+
+Since this is a documentation-only repository, there are no build, test, or lint commands. The workflow involves:
+
+1. **Adding new subagents**: Create a new `.md` file in the appropriate `categories/` directory
+2. **Modifying subagents**: Edit the specific `.md` file directly
+3. **Validation**: Check frontmatter syntax and content clarity
+4. **Documentation updates**: Update README.md when adding new categories or significant changes
+
+## Repository Maintenance
+
+- No package managers or build tools required
+- Files are plain Markdown with YAML frontmatter
+- No compilation or transpilation steps
+- Version control through Git only
+- Manual validation of frontmatter syntax and content quality
