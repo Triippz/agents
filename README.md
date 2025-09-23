@@ -20,24 +20,24 @@ This repository provides production-ready subagents that extend Claude Code's ca
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [backend-architect](backend-architect.md) | opus | RESTful API design, microservice boundaries, database schemas |
-| [frontend-developer](frontend-developer.md) | sonnet | React components, responsive layouts, client-side state management |
-| [graphql-architect](graphql-architect.md) | opus | GraphQL schemas, resolvers, federation architecture |
-| [architect-reviewer](architect-review.md) | opus | Architectural consistency analysis and pattern validation |
-| [cloud-architect](cloud-architect.md) | opus | AWS/Azure/GCP infrastructure design and cost optimization |
-| [hybrid-cloud-architect](hybrid-cloud-architect.md) | opus | Multi-cloud strategies across cloud and on-premises environments |
-| [kubernetes-architect](kubernetes-architect.md) | opus | Cloud-native infrastructure with Kubernetes and GitOps |
+| [backend-architect](categories/01-core-development/backend-architect.md) | opus | RESTful API design, microservice boundaries, database schemas |
+| [frontend-developer](categories/01-core-development/frontend-developer.md) | sonnet | React components, responsive layouts, client-side state management |
+| [graphql-architect](categories/01-core-development/graphql-architect.md) | opus | GraphQL schemas, resolvers, federation architecture |
+| [architect-reviewer](categories/04-quality-security/architect-review.md) | opus | Architectural consistency analysis and pattern validation |
+| [cloud-architect](categories/03-infrastructure/cloud-architect.md) | opus | AWS/Azure/GCP infrastructure design and cost optimization |
+| [hybrid-cloud-architect](categories/03-infrastructure/hybrid-cloud-architect.md) | opus | Multi-cloud strategies across cloud and on-premises environments |
+| [kubernetes-architect](categories/03-infrastructure/kubernetes-architect.md) | opus | Cloud-native infrastructure with Kubernetes and GitOps |
 
 #### UI/UX & Mobile
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [ui-ux-designer](ui-ux-designer.md) | sonnet | Interface design, wireframes, design systems |
-| [ui-visual-validator](ui-visual-validator.md) | sonnet | Visual regression testing and UI verification |
-| [mobile-developer](mobile-developer.md) | sonnet | React Native and Flutter application development |
-| [mobile-architect](mobile-architect.md) | opus | Mobile architecture patterns, performance optimization, cross-platform strategy |
-| [ios-developer](ios-developer.md) | sonnet | Native iOS development with Swift/SwiftUI |
-| [flutter-expert](flutter-expert.md) | sonnet | Advanced Flutter development with state management |
+| [ui-ux-designer](categories/01-core-development/ui-ux-designer.md) | sonnet | Interface design, wireframes, design systems |
+| [ui-visual-validator](categories/01-core-development/ui-visual-validator.md) | sonnet | Visual regression testing and UI verification |
+| [mobile-developer](categories/01-core-development/mobile-developer.md) | sonnet | React Native and Flutter application development |
+| [mobile-architect](categories/01-core-development/mobile-architect.md) | opus | Mobile architecture patterns, performance optimization, cross-platform strategy |
+| [ios-developer](categories/07-specialized-domains/ios-developer.md) | sonnet | Native iOS development with Swift/SwiftUI |
+| [flutter-expert](categories/07-specialized-domains/flutter-expert.md) | sonnet | Advanced Flutter development with state management |
 
 ### Programming Languages
 
@@ -45,40 +45,40 @@ This repository provides production-ready subagents that extend Claude Code's ca
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [c-pro](c-pro.md) | sonnet | System programming with memory management and OS interfaces |
-| [cpp-pro](cpp-pro.md) | sonnet | Modern C++ with RAII, smart pointers, STL algorithms |
-| [rust-pro](rust-pro.md) | sonnet | Memory-safe systems programming with ownership patterns |
-| [golang-pro](golang-pro.md) | sonnet | Concurrent programming with goroutines and channels |
+| [c-pro](categories/02-language-specialists/c-pro.md) | sonnet | System programming with memory management and OS interfaces |
+| [cpp-pro](categories/02-language-specialists/cpp-pro.md) | sonnet | Modern C++ with RAII, smart pointers, STL algorithms |
+| [rust-pro](categories/02-language-specialists/rust-pro.md) | sonnet | Memory-safe systems programming with ownership patterns |
+| [golang-pro](categories/02-language-specialists/golang-pro.md) | sonnet | Concurrent programming with goroutines and channels |
 
 #### Web & Application
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [javascript-pro](javascript-pro.md) | sonnet | Modern JavaScript with ES6+, async patterns, Node.js |
-| [typescript-pro](typescript-pro.md) | sonnet | Advanced TypeScript with type systems and generics |
-| [python-pro](python-pro.md) | sonnet | Python development with advanced features and optimization |
-| [ruby-pro](ruby-pro.md) | sonnet | Ruby with metaprogramming, Rails patterns, gem development |
-| [php-pro](php-pro.md) | sonnet | Modern PHP with frameworks and performance optimization |
-| [dart-pro](dart-pro.md) | sonnet | Dart 3.x+ with null safety, async programming, and Flutter integration |
-| [angular-architect](angular-architect.md) | sonnet | Angular 15+ enterprise applications, standalone components, signals |
-| [nextjs-developer](nextjs-developer.md) | sonnet | Next.js 14+ full-stack development, App Router, server components |
+| [javascript-pro](categories/02-language-specialists/javascript-pro.md) | sonnet | Modern JavaScript with ES6+, async patterns, Node.js |
+| [typescript-pro](categories/02-language-specialists/typescript-pro.md) | sonnet | Advanced TypeScript with type systems and generics |
+| [python-pro](categories/02-language-specialists/python-pro.md) | sonnet | Python development with advanced features and optimization |
+| [ruby-pro](categories/02-language-specialists/ruby-pro.md) | sonnet | Ruby with metaprogramming, Rails patterns, gem development |
+| [php-pro](categories/02-language-specialists/php-pro.md) | sonnet | Modern PHP with frameworks and performance optimization |
+| [dart-pro](categories/02-language-specialists/dart-pro.md) | sonnet | Dart 3.x+ with null safety, async programming, and Flutter integration |
+| [angular-architect](categories/02-language-specialists/angular-architect.md) | sonnet | Angular 15+ enterprise applications, standalone components, signals |
+| [nextjs-developer](categories/02-language-specialists/nextjs-developer.md) | sonnet | Next.js 14+ full-stack development, App Router, server components |
 
 #### Enterprise & JVM
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [java-pro](java-pro.md) | sonnet | Modern Java with streams, concurrency, JVM optimization |
-| [scala-pro](scala-pro.md) | sonnet | Enterprise Scala with functional programming and distributed systems |
-| [csharp-pro](csharp-pro.md) | sonnet | C# development with .NET frameworks and patterns |
+| [java-pro](categories/02-language-specialists/java-pro.md) | sonnet | Modern Java with streams, concurrency, JVM optimization |
+| [scala-pro](categories/02-language-specialists/scala-pro.md) | sonnet | Enterprise Scala with functional programming and distributed systems |
+| [csharp-pro](categories/02-language-specialists/csharp-pro.md) | sonnet | C# development with .NET frameworks and patterns |
 
 #### Specialized Platforms
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [elixir-pro](elixir-pro.md) | sonnet | Elixir with OTP patterns and Phoenix frameworks |
-| [unity-developer](unity-developer.md) | sonnet | Unity game development and optimization |
-| [minecraft-bukkit-pro](minecraft-bukkit-pro.md) | sonnet | Minecraft server plugin development |
-| [sql-pro](sql-pro.md) | sonnet | Complex SQL queries and database optimization |
+| [elixir-pro](categories/02-language-specialists/elixir-pro.md) | sonnet | Elixir with OTP patterns and Phoenix frameworks |
+| [unity-developer](categories/07-specialized-domains/unity-developer.md) | sonnet | Unity game development and optimization |
+| [minecraft-bukkit-pro](categories/07-specialized-domains/minecraft-bukkit-pro.md) | sonnet | Minecraft server plugin development |
+| [sql-pro](categories/02-language-specialists/sql-pro.md) | sonnet | Complex SQL queries and database optimization |
 
 ### Infrastructure & Operations
 
@@ -86,27 +86,27 @@ This repository provides production-ready subagents that extend Claude Code's ca
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [devops-troubleshooter](devops-troubleshooter.md) | sonnet | Production debugging, log analysis, deployment troubleshooting |
-| [devops-engineer](devops-engineer.md) | sonnet | DevOps transformation, automation, CI/CD, and team collaboration |
-| [deployment-engineer](deployment-engineer.md) | sonnet | CI/CD pipelines, containerization, cloud deployments |
-| [terraform-specialist](terraform-specialist.md) | opus | Infrastructure as Code with Terraform modules and state management |
-| [platform-engineer](platform-engineer.md) | opus | Internal developer platforms, self-service infrastructure, developer experience |
-| [sre-engineer](sre-engineer.md) | opus | Site reliability engineering, SLI/SLO management, incident response |
-| [dx-optimizer](dx-optimizer.md) | sonnet | Developer experience optimization and tooling improvements |
+| [devops-troubleshooter](categories/03-infrastructure/devops-troubleshooter.md) | sonnet | Production debugging, log analysis, deployment troubleshooting |
+| [devops-engineer](categories/03-infrastructure/devops-engineer.md) | sonnet | DevOps transformation, automation, CI/CD, and team collaboration |
+| [deployment-engineer](categories/03-infrastructure/deployment-engineer.md) | sonnet | CI/CD pipelines, containerization, cloud deployments |
+| [terraform-specialist](categories/03-infrastructure/terraform-specialist.md) | opus | Infrastructure as Code with Terraform modules and state management |
+| [platform-engineer](categories/03-infrastructure/platform-engineer.md) | opus | Internal developer platforms, self-service infrastructure, developer experience |
+| [sre-engineer](categories/03-infrastructure/sre-engineer.md) | opus | Site reliability engineering, SLI/SLO management, incident response |
+| [dx-optimizer](categories/06-developer-experience/dx-optimizer.md) | sonnet | Developer experience optimization and tooling improvements |
 
 #### Database Management
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [database-optimizer](database-optimizer.md) | opus | Query optimization, index design, migration strategies |
-| [database-admin](database-admin.md) | sonnet | Database operations, backup, replication, monitoring |
+| [database-optimizer](categories/05-data-ai/database-optimizer.md) | opus | Query optimization, index design, migration strategies |
+| [database-admin](categories/03-infrastructure/database-admin.md) | sonnet | Database operations, backup, replication, monitoring |
 
 #### Incident Response & Network
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [incident-responder](incident-responder.md) | opus | Production incident management and resolution |
-| [network-engineer](network-engineer.md) | sonnet | Network debugging, load balancing, traffic analysis |
+| [incident-responder](categories/03-infrastructure/incident-responder.md) | opus | Production incident management and resolution |
+| [network-engineer](categories/03-infrastructure/network-engineer.md) | sonnet | Network debugging, load balancing, traffic analysis |
 
 ### Quality Assurance & Security
 
@@ -114,30 +114,30 @@ This repository provides production-ready subagents that extend Claude Code's ca
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [code-reviewer](code-reviewer.md) | opus | Code review with security focus and production reliability |
-| [security-auditor](security-auditor.md) | opus | Vulnerability assessment and OWASP compliance |
-| [backend-security-coder](backend-security-coder.md) | opus | Secure backend coding practices, API security implementation |
-| [frontend-security-coder](frontend-security-coder.md) | opus | XSS prevention, CSP implementation, client-side security |
-| [mobile-security-coder](mobile-security-coder.md) | opus | Mobile security patterns, WebView security, biometric auth |
-| [architect-reviewer](architect-review.md) | opus | Architectural consistency and pattern validation |
+| [code-reviewer](categories/04-quality-security/code-reviewer.md) | opus | Code review with security focus and production reliability |
+| [security-auditor](categories/04-quality-security/security-auditor.md) | opus | Vulnerability assessment and OWASP compliance |
+| [backend-security-coder](categories/04-quality-security/backend-security-coder.md) | opus | Secure backend coding practices, API security implementation |
+| [frontend-security-coder](categories/04-quality-security/frontend-security-coder.md) | opus | XSS prevention, CSP implementation, client-side security |
+| [mobile-security-coder](categories/04-quality-security/mobile-security-coder.md) | opus | Mobile security patterns, WebView security, biometric auth |
+| [architect-reviewer](categories/04-quality-security/architect-review.md) | opus | Architectural consistency and pattern validation |
 
 #### Testing & Debugging
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [test-automator](test-automator.md) | sonnet | Comprehensive test suite creation (unit, integration, e2e) |
-| [tdd-orchestrator](tdd-orchestrator.md) | sonnet | Test-Driven Development methodology guidance |
-| [debugger](debugger.md) | sonnet | Error resolution and test failure analysis |
-| [error-detective](error-detective.md) | sonnet | Log analysis and error pattern recognition |
-| [accessibility-tester](accessibility-tester.md) | sonnet | WCAG compliance, inclusive design, assistive technology testing |
+| [test-automator](categories/04-quality-security/test-automator.md) | sonnet | Comprehensive test suite creation (unit, integration, e2e) |
+| [tdd-orchestrator](categories/04-quality-security/tdd-orchestrator.md) | sonnet | Test-Driven Development methodology guidance |
+| [debugger](categories/04-quality-security/debugger.md) | sonnet | Error resolution and test failure analysis |
+| [error-detective](categories/04-quality-security/error-detective.md) | sonnet | Log analysis and error pattern recognition |
+| [accessibility-tester](categories/04-quality-security/accessibility-tester.md) | sonnet | WCAG compliance, inclusive design, assistive technology testing |
 
 #### Performance & Observability
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [performance-engineer](performance-engineer.md) | opus | Application profiling and optimization |
-| [observability-engineer](observability-engineer.md) | opus | Production monitoring, distributed tracing, SLI/SLO management |
-| [search-specialist](search-specialist.md) | haiku | Advanced web research and information synthesis |
+| [performance-engineer](categories/04-quality-security/performance-engineer.md) | opus | Application profiling and optimization |
+| [observability-engineer](categories/04-quality-security/observability-engineer.md) | opus | Production monitoring, distributed tracing, SLI/SLO management |
+| [search-specialist](categories/08-business-product/search-specialist.md) | haiku | Advanced web research and information synthesis |
 
 ### Data & AI
 
@@ -145,27 +145,27 @@ This repository provides production-ready subagents that extend Claude Code's ca
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [data-scientist](data-scientist.md) | opus | Data analysis, SQL queries, BigQuery operations |
-| [data-engineer](data-engineer.md) | sonnet | ETL pipelines, data warehouses, streaming architectures |
+| [data-scientist](categories/05-data-ai/data-scientist.md) | opus | Data analysis, SQL queries, BigQuery operations |
+| [data-engineer](categories/05-data-ai/data-engineer.md) | sonnet | ETL pipelines, data warehouses, streaming architectures |
 
 #### Machine Learning & AI
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [ai-engineer](ai-engineer.md) | opus | LLM applications, RAG systems, prompt pipelines |
-| [ml-engineer](ml-engineer.md) | opus | ML pipelines, model serving, feature engineering |
-| [mlops-engineer](mlops-engineer.md) | opus | ML infrastructure, experiment tracking, model registries |
-| [prompt-engineer](prompt-engineer.md) | opus | LLM prompt optimization and engineering |
+| [ai-engineer](categories/05-data-ai/ai-engineer.md) | opus | LLM applications, RAG systems, prompt pipelines |
+| [ml-engineer](categories/05-data-ai/ml-engineer.md) | opus | ML pipelines, model serving, feature engineering |
+| [mlops-engineer](categories/05-data-ai/mlops-engineer.md) | opus | ML infrastructure, experiment tracking, model registries |
+| [prompt-engineer](categories/05-data-ai/prompt-engineer.md) | opus | LLM prompt optimization and engineering |
 
 ### Documentation & Technical Writing
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [docs-architect](docs-architect.md) | opus | Comprehensive technical documentation generation |
-| [api-documenter](api-documenter.md) | sonnet | OpenAPI/Swagger specifications and developer docs |
-| [reference-builder](reference-builder.md) | haiku | Technical references and API documentation |
-| [tutorial-engineer](tutorial-engineer.md) | sonnet | Step-by-step tutorials and educational content |
-| [mermaid-expert](mermaid-expert.md) | sonnet | Diagram creation (flowcharts, sequences, ERDs) |
+| [docs-architect](categories/06-developer-experience/docs-architect.md) | opus | Comprehensive technical documentation generation |
+| [api-documenter](categories/06-developer-experience/api-documenter.md) | sonnet | OpenAPI/Swagger specifications and developer docs |
+| [reference-builder](categories/06-developer-experience/reference-builder.md) | haiku | Technical references and API documentation |
+| [tutorial-engineer](categories/06-developer-experience/tutorial-engineer.md) | sonnet | Step-by-step tutorials and educational content |
+| [mermaid-expert](categories/06-developer-experience/mermaid-expert.md) | sonnet | Diagram creation (flowcharts, sequences, ERDs) |
 
 ### Business & Operations
 
@@ -173,51 +173,51 @@ This repository provides production-ready subagents that extend Claude Code's ca
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [business-analyst](business-analyst.md) | sonnet | Metrics analysis, reporting, KPI tracking |
-| [quant-analyst](quant-analyst.md) | opus | Financial modeling, trading strategies, market analysis |
-| [risk-manager](risk-manager.md) | sonnet | Portfolio risk monitoring and management |
+| [business-analyst](categories/08-business-product/business-analyst.md) | sonnet | Metrics analysis, reporting, KPI tracking |
+| [quant-analyst](categories/07-specialized-domains/quant-analyst.md) | opus | Financial modeling, trading strategies, market analysis |
+| [risk-manager](categories/07-specialized-domains/risk-manager.md) | sonnet | Portfolio risk monitoring and management |
 
 #### Marketing & Sales
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [content-marketer](content-marketer.md) | sonnet | Blog posts, social media, email campaigns |
-| [sales-automator](sales-automator.md) | haiku | Cold emails, follow-ups, proposal generation |
+| [content-marketer](categories/08-business-product/content-marketer.md) | sonnet | Blog posts, social media, email campaigns |
+| [sales-automator](categories/08-business-product/sales-automator.md) | haiku | Cold emails, follow-ups, proposal generation |
 
 #### Support & Legal
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [customer-support](customer-support.md) | sonnet | Support tickets, FAQ responses, customer communication |
-| [hr-pro](hr-pro.md) | opus | HR operations, policies, employee relations |
-| [legal-advisor](legal-advisor.md) | opus | Privacy policies, terms of service, legal documentation |
+| [customer-support](categories/08-business-product/customer-support.md) | sonnet | Support tickets, FAQ responses, customer communication |
+| [hr-pro](categories/08-business-product/hr-pro.md) | opus | HR operations, policies, employee relations |
+| [legal-advisor](categories/08-business-product/legal-advisor.md) | opus | Privacy policies, terms of service, legal documentation |
 
 ### Specialized Domains
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [blockchain-developer](blockchain-developer.md) | sonnet | Web3 apps, smart contracts, DeFi protocols |
-| [payment-integration](payment-integration.md) | sonnet | Payment processor integration (Stripe, PayPal) |
-| [legacy-modernizer](legacy-modernizer.md) | sonnet | Legacy code refactoring and modernization |
-| [context-manager](context-manager.md) | haiku | Multi-agent context management |
-| [crdt-expert](crdt-expert.md) | opus | Conflict-free Replicated Data Types, distributed systems, collaborative applications |
-| [data-structures-expert](data-structures-expert.md) | sonnet | Data structure selection, algorithm complexity, optimization patterns |
-| [websocket-engineer](websocket-engineer.md) | sonnet | Real-time communication, WebSocket APIs, bidirectional messaging |
+| [blockchain-developer](categories/07-specialized-domains/blockchain-developer.md) | sonnet | Web3 apps, smart contracts, DeFi protocols |
+| [payment-integration](categories/07-specialized-domains/payment-integration.md) | sonnet | Payment processor integration (Stripe, PayPal) |
+| [legacy-modernizer](categories/06-developer-experience/legacy-modernizer.md) | sonnet | Legacy code refactoring and modernization |
+| [context-manager](categories/09-meta-orchestration/context-manager.md) | haiku | Multi-agent context management |
+| [crdt-expert](categories/05-data-ai/crdt-expert.md) | opus | Conflict-free Replicated Data Types, distributed systems, collaborative applications |
+| [data-structures-expert](categories/05-data-ai/data-structures-expert.md) | sonnet | Data structure selection, algorithm complexity, optimization patterns |
+| [websocket-engineer](categories/01-core-development/websocket-engineer.md) | sonnet | Real-time communication, WebSocket APIs, bidirectional messaging |
 
 ### SEO & Content Optimization
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [seo-content-auditor](seo-content-auditor.md) | sonnet | Content quality analysis, E-E-A-T signals assessment |
-| [seo-meta-optimizer](seo-meta-optimizer.md) | haiku | Meta title and description optimization |
-| [seo-keyword-strategist](seo-keyword-strategist.md) | haiku | Keyword analysis and semantic variations |
-| [seo-structure-architect](seo-structure-architect.md) | haiku | Content structure and schema markup |
-| [seo-snippet-hunter](seo-snippet-hunter.md) | haiku | Featured snippet formatting |
-| [seo-content-refresher](seo-content-refresher.md) | haiku | Content freshness analysis |
-| [seo-cannibalization-detector](seo-cannibalization-detector.md) | haiku | Keyword overlap detection |
-| [seo-authority-builder](seo-authority-builder.md) | sonnet | E-E-A-T signal analysis |
-| [seo-content-writer](seo-content-writer.md) | sonnet | SEO-optimized content creation |
-| [seo-content-planner](seo-content-planner.md) | haiku | Content planning and topic clusters |
+| [seo-content-auditor](categories/10-seo-content/seo-content-auditor.md) | sonnet | Content quality analysis, E-E-A-T signals assessment |
+| [seo-meta-optimizer](categories/10-seo-content/seo-meta-optimizer.md) | haiku | Meta title and description optimization |
+| [seo-keyword-strategist](categories/10-seo-content/seo-keyword-strategist.md) | haiku | Keyword analysis and semantic variations |
+| [seo-structure-architect](categories/10-seo-content/seo-structure-architect.md) | haiku | Content structure and schema markup |
+| [seo-snippet-hunter](categories/10-seo-content/seo-snippet-hunter.md) | haiku | Featured snippet formatting |
+| [seo-content-refresher](categories/10-seo-content/seo-content-refresher.md) | haiku | Content freshness analysis |
+| [seo-cannibalization-detector](categories/10-seo-content/seo-cannibalization-detector.md) | haiku | Keyword overlap detection |
+| [seo-authority-builder](categories/10-seo-content/seo-authority-builder.md) | sonnet | E-E-A-T signal analysis |
+| [seo-content-writer](categories/10-seo-content/seo-content-writer.md) | sonnet | SEO-optimized content creation |
+| [seo-content-planner](categories/10-seo-content/seo-content-planner.md) | haiku | Content planning and topic clusters |
 
 ## Model Configuration
 
