@@ -1,6 +1,6 @@
 # Claude Code Subagents Collection
 
-A comprehensive collection of 95 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
+A comprehensive collection of 97 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
 
 ## Overview
 
@@ -60,6 +60,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [ruby-pro](categories/02-language-specialists/ruby-pro.md) | sonnet | Ruby with metaprogramming, Rails patterns, gem development |
 | [php-pro](categories/02-language-specialists/php-pro.md) | sonnet | Modern PHP with frameworks and performance optimization |
 | [dart-pro](categories/02-language-specialists/dart-pro.md) | sonnet | Dart 3.x+ with null safety, async programming, and Flutter integration |
+| [deno-expert](categories/02-language-specialists/deno-expert.md) | sonnet | Modern JavaScript/TypeScript runtime with built-in security and tooling |
 | [angular-architect](categories/02-language-specialists/angular-architect.md) | sonnet | Angular 15+ enterprise applications, standalone components, signals |
 | [nextjs-developer](categories/02-language-specialists/nextjs-developer.md) | sonnet | Next.js 14+ full-stack development, App Router, server components |
 
@@ -176,6 +177,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [business-analyst](categories/08-business-product/business-analyst.md) | sonnet | Metrics analysis, reporting, KPI tracking |
 | [quant-analyst](categories/07-specialized-domains/quant-analyst.md) | opus | Financial modeling, trading strategies, market analysis |
 | [risk-manager](categories/07-specialized-domains/risk-manager.md) | sonnet | Portfolio risk monitoring and management |
+| [military-standards-expert](categories/07-specialized-domains/military-standards-expert.md) | opus | Military and NATO standards compliance, symbology, and interoperability |
 
 #### Marketing & Sales
 
