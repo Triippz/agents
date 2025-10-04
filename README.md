@@ -1,6 +1,6 @@
 # Claude Code Subagents Collection
 
-A comprehensive collection of 97 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
+A comprehensive collection of 98 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
 
 ## Overview
 
@@ -63,6 +63,14 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [deno-expert](categories/02-language-specialists/deno-expert.md) | sonnet | Modern JavaScript/TypeScript runtime with built-in security and tooling |
 | [angular-architect](categories/02-language-specialists/angular-architect.md) | sonnet | Angular 15+ enterprise applications, standalone components, signals |
 | [nextjs-developer](categories/02-language-specialists/nextjs-developer.md) | sonnet | Next.js 14+ full-stack development, App Router, server components |
+
+#### Web Frameworks
+
+| Agent | Model | Description |
+|-------|-------|-------------|
+| [actix-pro](categories/02-language-specialists/actix-pro.md) | sonnet | Actix Web framework with async Rust, type-safe extractors, middleware |
+| [django-pro](categories/02-language-specialists/django-pro.md) | sonnet | Django 5.x with async views, DRF, scalable architecture |
+| [fastapi-pro](categories/02-language-specialists/fastapi-pro.md) | sonnet | FastAPI with async patterns, SQLAlchemy 2.0, Pydantic V2 |
 
 #### Enterprise & JVM
 
