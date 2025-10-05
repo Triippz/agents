@@ -1,6 +1,6 @@
 # Claude Code Subagents Collection
 
-A comprehensive collection of 98 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
+A comprehensive collection of 99 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
 
 ## Overview
 
@@ -71,6 +71,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [actix-pro](categories/02-language-specialists/actix-pro.md) | sonnet | Actix Web framework with async Rust, type-safe extractors, middleware |
 | [django-pro](categories/02-language-specialists/django-pro.md) | sonnet | Django 5.x with async views, DRF, scalable architecture |
 | [fastapi-pro](categories/02-language-specialists/fastapi-pro.md) | sonnet | FastAPI with async patterns, SQLAlchemy 2.0, Pydantic V2 |
+| [salvo-pro](categories/02-language-specialists/salvo-pro.md) | sonnet | Salvo Rust web framework with unified Handler/Middleware, flexible routing, OpenAPI |
 
 #### Enterprise & JVM
 
