@@ -1,6 +1,6 @@
 # Claude Code Subagents Collection
 
-A comprehensive collection of 100 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
+A comprehensive collection of 102 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), providing domain-specific expertise across software development, infrastructure, and business operations.
 
 ## Overview
 
@@ -186,6 +186,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | Agent | Model | Description |
 |-------|-------|-------------|
 | [business-analyst](categories/08-business-product/business-analyst.md) | sonnet | Metrics analysis, reporting, KPI tracking |
+| [product-manager](categories/08-business-product/product-manager.md) | sonnet | Product strategy, roadmap planning, feature prioritization |
 | [quant-analyst](categories/07-specialized-domains/quant-analyst.md) | opus | Financial modeling, trading strategies, market analysis |
 | [risk-manager](categories/07-specialized-domains/risk-manager.md) | sonnet | Portfolio risk monitoring and management |
 | [military-standards-expert](categories/07-specialized-domains/military-standards-expert.md) | opus | Military and NATO standards compliance, symbology, and interoperability |
@@ -213,6 +214,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [payment-integration](categories/07-specialized-domains/payment-integration.md) | sonnet | Payment processor integration (Stripe, PayPal) |
 | [legacy-modernizer](categories/06-developer-experience/legacy-modernizer.md) | sonnet | Legacy code refactoring and modernization |
 | [context-manager](categories/09-meta-orchestration/context-manager.md) | haiku | Multi-agent context management |
+| [tech-lead](categories/09-meta-orchestration/tech-lead.md) | opus | Work breakdown, incremental delivery, small PRs |
 | [crdt-expert](categories/05-data-ai/crdt-expert.md) | opus | Conflict-free Replicated Data Types, distributed systems, collaborative applications |
 | [data-structures-expert](categories/05-data-ai/data-structures-expert.md) | sonnet | Data structure selection, algorithm complexity, optimization patterns |
 | [websocket-engineer](categories/01-core-development/websocket-engineer.md) | sonnet | Real-time communication, WebSocket APIs, bidirectional messaging |
@@ -241,8 +243,8 @@ Agents are assigned to specific Claude models based on task complexity and compu
 | Model | Agent Count | Use Case |
 |-------|-------------|----------|
 | Haiku | 11 | Quick, focused tasks with minimal computational overhead |
-| Sonnet | 57 | Standard development and specialized engineering tasks |
-| Opus | 27 | Complex reasoning, architecture, and critical analysis |
+| Sonnet | 58 | Standard development and specialized engineering tasks |
+| Opus | 28 | Complex reasoning, architecture, and critical analysis |
 
 ### Haiku Model Agents
 
@@ -259,7 +261,7 @@ Agents are assigned to specific Claude models based on task complexity and compu
 | Frontend & UI | 5 | `frontend-developer`, `ui-ux-designer`, `ui-visual-validator`, `mobile-developer`, `ios-developer` |
 | Infrastructure | 11 | `devops-troubleshooter`, `devops-engineer`, `deployment-engineer`, `dx-optimizer`, `database-admin`, `network-engineer`, `flutter-expert`, `api-documenter`, `tutorial-engineer`, `websocket-engineer`, `legacy-modernizer` |
 | Quality & Testing | 5 | `test-automator`, `tdd-orchestrator`, `debugger`, `error-detective`, `accessibility-tester` |
-| Business & Support | 6 | `business-analyst`, `risk-manager`, `content-marketer`, `customer-support`, `mermaid-expert`, `legacy-modernizer` |
+| Business & Support | 7 | `business-analyst`, `product-manager`, `risk-manager`, `content-marketer`, `customer-support`, `mermaid-expert`, `legacy-modernizer` |
 | Data & Content | 6 | `data-engineer`, `data-structures-expert`, `payment-integration`, `seo-content-auditor`, `seo-authority-builder`, `seo-content-writer` |
 
 ### Opus Model Agents
@@ -267,7 +269,7 @@ Agents are assigned to specific Claude models based on task complexity and compu
 | Category | Count | Agents |
 |----------|-------|--------|
 | Architecture & Design | 10 | `architect-reviewer`, `backend-architect`, `cloud-architect`, `hybrid-cloud-architect`, `kubernetes-architect`, `graphql-architect`, `terraform-specialist`, `platform-engineer`, `mobile-architect`, `crdt-expert` |
-| Critical Analysis | 7 | `code-reviewer`, `security-auditor`, `performance-engineer`, `observability-engineer`, `incident-responder`, `sre-engineer`, `database-optimizer` |
+| Critical Analysis | 8 | `code-reviewer`, `security-auditor`, `performance-engineer`, `observability-engineer`, `incident-responder`, `sre-engineer`, `database-optimizer`, `tech-lead` |
 | AI/ML Complex | 5 | `ai-engineer`, `ml-engineer`, `mlops-engineer`, `data-scientist`, `prompt-engineer` |
 | Business Critical | 4 | `docs-architect`, `hr-pro`, `legal-advisor`, `quant-analyst` |
 
